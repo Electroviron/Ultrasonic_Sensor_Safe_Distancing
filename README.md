@@ -59,6 +59,10 @@ Distance measurement is based on the **time-of-flight** of ultrasonic sound wave
 
 ---
 
+## 🔌 Circuit Diagram
+
+![Ultrasonic Distance Alert Circuit](circuit/wiring.png)
+
 ## 📏 Distance Thresholds
 
 ```cpp

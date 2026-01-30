@@ -26,9 +26,9 @@ Distance measurement is based on the **time-of-flight** of ultrasonic sound wave
 4. The sensor outputs a HIGH pulse on the **ECHO pin**.
 5. The duration of this pulse is used to calculate distance:
 
-\[
-\text{Distance (cm)} = \frac{\text{Echo Time (µs)} \times 0.034}{2}
-\]
+```cpp
+ Distance (cm) = (Echo Time (µs) × 0.034) / 2;
+```
 
 6. The system compares the measured distance with a preset safety threshold and reacts accordingly.
 
